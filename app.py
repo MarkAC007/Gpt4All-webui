@@ -235,7 +235,7 @@ if __name__ == '__main__':
     parser.add_argument('--repeat_last_n', type=int, default=64, help='Number of previous tokens to consider for the repeat penalty.')
     parser.add_argument('--ctx_size', type=int, default=2048, help='Size of the context window for the model.')
     parser.add_argument('--debug', dest='debug', action='store_true', help='launch Flask server in debug mode')
-    parser.add_argument('--host', type=str, default='localhost', help='the hostname to listen on')
+    parser.add_argument('--host', type=str, default='172.31.159.124', help='the hostname to listen on')
     parser.add_argument('--port', type=int, default=9600, help='the port to listen on')
     parser.set_defaults(debug=False)
 
